@@ -16,3 +16,18 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 //      ALTRIMENTI SE è divisibile per 3 stampa Fizz
 //      ALTRIMENTI SE è divisibile per 5 stampa Buzz
 
+// 1- Scrivi un programma che stampi i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+    //  SE è divisibile sia per 3 che per 5 stampa FizzBuzz
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz")
+        } else if (i % 5 === 0) {
+    //  ALTRIMENTI SE è divisibile per 5 stampa Fizz
+            console.log("Buzz");
+        } else if (i % 3 === 0) {
+    //  ALTRIMENTI SE è divisibile per 3 stampa Buzz
+            console.log("Fizz");
+        } else {
+            console.log(i);
+        }
+    }
